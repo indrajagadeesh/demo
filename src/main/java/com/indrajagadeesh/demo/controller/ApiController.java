@@ -10,13 +10,13 @@ public class ApiController {
 
     @GetMapping("/")
     public String index() {
-        log.info("hot successful");
+        log.info("htt successful");
         return "<h1> Hello Medium ....!</h1><br>";
     }
 
     @GetMapping("/{name}")
     public String hello(@PathVariable String name) {
-        log.info("hot successful and message is {}",name);
+        log.info("htt successful and message is {}",name);
         return "<h2> Hello "+name+" ....!</h2>";
     }
 }
